@@ -10,6 +10,7 @@ int main()
 {
     RetiRenderer::setReticleRootDirectory("/mnt/data/git-repos/ProjectReticle/Reticle");
     RetiRenderer::init();
+    RetiRenderer rendr;
 
     float verts[] = {1.0, 1.0, 0.0,
                      -1.0, 1.0, 0.0,
@@ -19,12 +20,11 @@ int main()
                     0.0, 1.0,
                     0.0, 0.0,
                     1.0, 0.0};
-    unsigned int tris[] = {0, 1, 2, 0, 2, 3};
+    unsigned int tris[] = {0, 2, 1, 0, 3, 2};
 
-    RetiMesh mesh(verts, texes, 4, tris, 2);
-    mesh.getTransform().translateTransform(0.0, 0.0, 1.0);
+    RetiMesh mesh(verts, texes, 4, tris, 6);
+    mesh.getTransform().translateTransform(0.0, 0.0, -3.0);
 
-    RetiRenderer rendr;
     rendr.addMesh(&mesh);
 
     rendr.startRenderer();

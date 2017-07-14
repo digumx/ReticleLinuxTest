@@ -15,3 +15,9 @@ This project is licensed under the MIT License.
  -  Open the .cbp file and make sure that all absolute and relative paths in the Build Options correctly point to the Reticle root directory (which should contain the Sources, Headers, Dependencies, etc).
  -  Find the line that says `RetiRenderer::setReticleRootDirectory("...")` and replace `"..."` with absolute or CWD-relative path to Reticle root directory.
  -  Enjoy!:)
+
+## Correct Behavior:
+
+### Master branch 0.0.7a:
+
+Just renderes a square in the centre of the screen with the gradient-checkboard default texture.
