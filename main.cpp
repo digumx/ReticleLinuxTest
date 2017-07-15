@@ -29,7 +29,19 @@ int main()
 
     rendr.startRenderer();
 
-    std::this_thread::sleep_for(std::chrono::seconds(20));
+    while(true)
+    {
+        std::this_thread::sleep_for(std::chrono::milliseconds(5));
+        if (rendr.getKeyboard().isKeyPressed(RetiKey::ESCAPE))  break;
+        if (rendr.getKeyboard().isKeyPressed(RetiKey::UP))
+            rendr.getCamera().getTransform().translateTransform(0, 0, 0.005);
+        if (rendr.getKeyboard().isKeyPressed(RetiKey::DOWN))
+            rendr.getCamera().getTransform().translateTransform(0, 0, -0.005);
+        if (rendr.getKeyboard().isKeyPressed(RetiKey::LEFT))
+            rendr.getCamera().getTransform().rotateTransform(0.005, 0, 1, 0);
+        if (rendr.getKeyboard().isKeyPressed(RetiKey::RIGHT))
+            rendr.getCamera().getTransform().rotateTransform(-0.005, 0, 1, 0);
+    }
 
     rendr.stopRenderer();
 }
