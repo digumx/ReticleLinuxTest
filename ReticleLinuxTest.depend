@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1500207935 source:/mnt/data/git-repos/ReticleLinuxTest/main.cpp
+1500211839 source:/mnt/data/git-repos/ReticleLinuxTest/main.cpp
 	<iostream>
 	<thread>
 	<pthread.h>
 	<chrono>
 	<reticle.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/reticle.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/reticle.h
 	<includes.h>
 	<RetiRenderer.h>
 	<RetiMaterial.h>
@@ -16,7 +16,7 @@
 	<RetiCamera.h>
 	<RetiSceneObject.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/includes.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/includes.h
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<glm/glm.hpp>
@@ -555,7 +555,7 @@
 1500205202 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/glm/gtc/type_ptr.inl
 	<cstring>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiRenderer.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiRenderer.h
 	<vector>
 	<string>
 	<iostream>
@@ -565,13 +565,13 @@
 	<atomic>
 	<includes.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiMaterial.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiMaterial.h
 	<vector>
 	<unordered_map>
 	<string>
 	<includes.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiMesh.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiMesh.h
 	<includes.h>
 	<vector>
 	<RetiMaterial.h>
@@ -583,17 +583,17 @@
 	<atomic>
 	<pthread.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/Math/RetiTransform.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/Math/RetiTransform.h
 	<map>
 	<includes.h>
 	<Core/RetiSpinlock.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiShader.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiShader.h
 	<includes.h>
 	<string>
 	<includes.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiTexture.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiTexture.h
 	<string>
 	<unordered_map>
 
@@ -650,7 +650,7 @@
 	<cstdarg>
 	<cstdio>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiSceneObject.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Headers/RetiSceneObject.h
 	<vector>
 	<string>
 	<includes.h>
@@ -659,11 +659,11 @@
 	<assimp/postprocess.h>
 	<Math/RetiTransform.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/Importer.hpp
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/Importer.hpp
 	"types.h"
 	"config.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/types.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/types.h
 	<sys/types.h>
 	<memory.h>
 	<math.h>
@@ -689,61 +689,61 @@
 	"matrix3x3.inl"
 	"matrix4x4.inl"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/defs.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/defs.h
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/vector3.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/vector3.h
 	<cmath>
 	<math.h>
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/Compiler/pushpack1.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/Compiler/pushpack1.h
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/Compiler/poppack1.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/Compiler/poppack1.h
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/vector2.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/vector2.h
 	<cmath>
 	<math.h>
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/color4.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/color4.h
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/matrix3x3.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/matrix3x3.h
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/matrix4x4.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/matrix4x4.h
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/quaternion.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/quaternion.h
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/vector2.inl
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/vector2.inl
 	"vector2.h"
 	<cmath>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/vector3.inl
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/vector3.inl
 	"vector3.h"
 	<cmath>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/color4.inl
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/color4.inl
 	"color4.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/quaternion.inl
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/quaternion.inl
 	"quaternion.h"
 	<cmath>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/matrix3x3.inl
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/matrix3x3.inl
 	"matrix3x3.h"
 	"matrix4x4.h"
 	<algorithm>
 	<cmath>
 	<limits>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/matrix4x4.inl
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/matrix4x4.inl
 	"matrix4x4.h"
 	"matrix3x3.h"
 	"quaternion.h"
@@ -752,9 +752,9 @@
 	<cmath>
 	<math.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/config.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/config.h
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/scene.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/scene.h
 	"types.h"
 	"texture.h"
 	"mesh.h"
@@ -764,45 +764,45 @@
 	"anim.h"
 	"metadata.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/texture.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/texture.h
 	"types.h"
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/mesh.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/mesh.h
 	"types.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/light.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/light.h
 	"types.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/camera.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/camera.h
 	"types.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/material.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/material.h
 	"types.h"
 	"./Compiler/pushpack1.h"
 	"./Compiler/poppack1.h"
 	"material.inl"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/material.inl
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/material.inl
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/anim.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/anim.h
 	"types.h"
 	"quaternion.h"
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/metadata.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/metadata.h
 	<assert.h>
 	"Compiler/pstdint.h"
 	<stdint.h>
 	<string>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/Compiler/pstdint.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/Compiler/pstdint.h
 	<stddef.h>
 	<limits.h>
 	<signal.h>
 	<stdint.h>
 	<wchar.h>
 
-1500205409 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/postprocess.h
+1500211389 /mnt/data/git-repos/ProjectReticle/Reticle/Includes/assimp/postprocess.h
 	"types.h"
 

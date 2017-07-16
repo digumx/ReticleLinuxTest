@@ -25,8 +25,9 @@ int main()
     //RetiMesh mesh(verts, texes, 4, tris, 6);
     //mesh.getTransform().translateTransform(0.0, 0.0, -3.0);
 
-    RetiSceneObject obj("/mnt/data/3DModels/Jug/Milk Jug.3ds");
-    //obj.getTransform().translateTransform(0, 0, -3);
+    RetiSceneObject obj("/mnt/data/3DModels/Jug/Milk jug.3DS");
+    obj.getTransform().scaleTransform(0.2, 0.2, 0.2);
+    obj.getTransform().translateTransform(-1, -1, -3);
 
     rendr.addSceneObject(&obj);
 
