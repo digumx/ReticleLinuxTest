@@ -29,7 +29,7 @@ int main()
 
     rendr.startRenderer();
 
-    std::this_thread::sleep_for(std::chrono::seconds(20));
+    std::this_thread::sleep_for(std::chrono::seconds(2));
 
     rendr.stopRenderer();
 }
