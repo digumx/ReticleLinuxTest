@@ -40,7 +40,7 @@
 			<Add directory="../ProjectReticle/Reticle/Includes" />
 		</Compiler>
 		<Linker>
-			<Add option="-lReticle -lpthread" />
+			<Add option="-lReticle -lpthread -Wl,-rpath,../../../ProjectReticle/Reticle/bin/Debug" />
 			<Add directory="../ProjectReticle/Reticle/Dependencies" />
 		</Linker>
 		<Unit filename="main.cpp" />
