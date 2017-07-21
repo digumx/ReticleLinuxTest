@@ -51,7 +51,7 @@ int main()
     #ifdef TEST_LOCAL_SCALE
 
     /// Comment the following line to try different orientations.
-    obj.getTransform().rotateTransform(1.57, 0, 0, 1);
+    obj.getTransform().rotateTransform(-1.57, 0, 0, 1);
     obj.getTransform().scaleTransformLocal(1, 10, 1);
 
     #endif // TEST_LOCAL_SCALE
