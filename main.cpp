@@ -6,7 +6,7 @@
 #include <reticle.h>
 
 /// Uncomment to parent camera to obj.
-#define PARENT_CAM
+//#define PARENT_CAM
 
 /** Note, for best results, activate only one of the following 3 macros at a time. */
 
